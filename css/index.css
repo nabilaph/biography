@@ -1,0 +1,83 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e1d4d1;
+}
+.sidebar {
+    width: 20%;
+    height: 300px;
+    padding-top: 2cm;
+    background-color: #dbcbc7;
+    display: inline-block;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: #693835 ;
+    line-height: 1cm;
+    margin-left: 1.5cm;
+    padding: 0.2cm;
+    font-size: larger;
+}
+
+.sidebar a:hover{
+    border: 2px solid #693835 ;
+}
+  
+.name{
+    background-color: #693835;
+    color: #e1d4d1;
+    font-size: 22px;
+    float: right;
+    padding-top: 1.3cm;
+    padding-bottom: 0.7cm;
+    height: 300px;
+    width: 80%;
+    display: inline-block;
+}
+
+.namequ{
+    width: 400px;
+    padding-left: 3cm ;
+    
+}
+.namequ > p{
+    margin-bottom: -0.3cm;
+}
+.name > p{
+    width: 270px;
+    padding-left: 2cm;
+    font-size: 15px;
+    margin-top: -0.3cm;
+}
+
+.img{
+    float: right;
+    position: absolute;
+    padding-left: 636px;
+    margin-top: -8.55cm;
+}
+
+.bio{
+    background-color: #e1d4d1;
+    width: 100%;
+    height: 450px;
+}
+
+.bio table{
+    margin-left: 8cm;
+    padding-top: 1cm;
+    font-size: 22px;
+    line-height: 50px;
+    width: 900px;
+    color: #693835;
+}
+
+.edu{
+    padding: 2cm 5cm 3cm 8cm;
+}
+
+.edu ul{
+    color: #ab7467;
+    font-size: 22px;
+    line-height: 40px;
+}
