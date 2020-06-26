@@ -5,7 +5,7 @@ body{
 .sidebar {
     width: 20%;
     height: 200px;
-    padding-top: 2cm;
+    padding: 50px 10px 30px 10px;
     background-color: #dbcbc7;
     display: inline-block;
 }
@@ -13,9 +13,8 @@ body{
 .sidebar a{
     text-decoration: none;
     color: #693835 ;
-    line-height: 1cm;
-    margin-left: 1.5cm;
-    padding: 0.2cm;
+    margin-left: 10.5px;
+    padding: 12.2px;
     font-size: larger;
 }
 
@@ -27,9 +26,7 @@ body{
     background-color: #693835 ;
     color: white;
     font-size: 30px;
-    float: right;
-    padding-top: 1.3cm;
-    padding-bottom: 0.7cm;
+    padding: 10px 3px 20px 3px;
     height: 200px;
     width: 80%;
     display: inline-block;
@@ -39,10 +36,27 @@ body{
 }
 
 p{
-    width: 900px;
-    text-indent: 1cm;
-    padding: 1.5cm 0 0cm 7cm ;
+    width: 100%;
+    padding: 5.5px 0 0px 7px ;
     line-height: 30px;
     text-align: justify;
     color: #693835;
+}
+
+@media (max-width: 600px){ 
+    .sidebar, .header, .content {
+        width: 100% !important;
+        height: auto;
+    }
+}
+
+@media (max-width: 800px){ 
+    .sidebar  {
+        width: 50% !important;
+        height: auto;
+    }
+    .header {
+        width: 50% !important;
+        height: auto;
+    }
 }
